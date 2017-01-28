@@ -16,6 +16,12 @@
     "skipLibCheck": true,
     "baseUrl": "."
   },
+    "include": [
+    "./app/app.module.ts",
+    "./app/*/*.module.ts",
+    "./app/*.module.ts",
+    "./app/*.d.ts"
+  ],
   "angularCompilerOptions": {
     "debug": true,
     "entryModule":"app/app.module#AppModule"
